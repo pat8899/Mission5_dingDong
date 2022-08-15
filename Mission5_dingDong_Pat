@@ -1,0 +1,20 @@
+public class Mission5_Pat {
+    public static void dingDong(){
+        List<Integer> inputs = new List<Integer>{12,20,30,17};
+        String print;
+        for (Integer input : inputs) {
+    
+            if (math.mod(input,3) == 0 && math.mod(input,5) == 0) {
+                print = ('DingDong');
+            }
+            else if (math.mod(input,5) == 0) {
+                print = ('Dong');
+        	}
+            else if (math.mod(input,3) == 0)  {
+                print = ('Ding');
+        	}
+
+		System.debug(print);
+        }
+    }
+}
